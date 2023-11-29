@@ -1,0 +1,23 @@
+#div1{
+    background-color: azure;
+    
+}
+
+#div2 {
+    float: auto;
+    margin-right: auto;
+    
+}
+
+.联系方式logo{
+    background-color: rgba(0, 0, 0, 0.347);
+    width: 100px;
+    float: right
+    
+    
+}
+
+p{
+    margin-left: auto;
+    font-size: 3em;
+}
