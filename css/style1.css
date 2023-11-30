@@ -1,23 +1,87 @@
-#div1{
-    background-color: azure;
-    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-#div2 {
-    float: auto;
-    margin-right: auto;
+header {
+    background-color: #1b74d376;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
     
+    box-shadow: 0px 0px 30px rgba(100, 106, 183, 0.785);
 }
 
-.联系方式logo{
-    background-color: rgba(0, 0, 0, 0.347);
-    width: 100px;
-    float: right
-    
-    
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
 }
 
-p{
-    margin-left: auto;
-    font-size: 3em;
+h1,
+h2 {
+    color: #1a324cc1;
+    font-size: 1.5em;
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
 }
+
+footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 1em;
+    }
+
+
+ul {
+    list-style:none;
+    padding: 0px;
+}
+
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color:rgba(0, 68, 255, 0.066);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 0.8em;
+}
+
+ .custom_icon {
+     width: 24px;
+     /* 自定义图标的宽度 */
+     height: 24px;
+     /* 自定义图标的高度 */
+     margin-right: 10px;
+     /* 可以添加其他样式，例如颜色、背景等 */
+ }
+
+ section {
+        background-color: rgba(0, 68, 255, 0.044);
+        box-shadow: 0px 0px 100px rgba(100, 106, 183, 0.329);
+ }
+
+ .Text1 {
+    font-family: 'Noto Serif HK', serif;
+ }
+
+
+ .Text2_List {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+
+
